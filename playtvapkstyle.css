@@ -1,0 +1,226 @@
+body { 
+      margin: 0; 
+      padding: 0; 
+       font-family: "Montserrat", sans-serif;
+      background-color: #222;   /*COR DE FUNDO*/
+      color: #fff;
+ 
+  
+  
+ }
+  
+ #Player { 
+  display: block;  
+  width: 100vw; 
+  height: 56.26vw;
+  }
+  
+  
+  #botoes {             /*FUNDO ATRAS DOS BOTOES*/
+      margin-top: 0vh; 
+      padding: 5px 5px; 
+      overflow-y: auto; 
+      max-height: 60vh; 
+      display: flex; 
+      background-color: #222;   /*COR DE FUNDO BOTOES*/
+      border-top: 2px solid #00c0d1;
+      border-bottom: 2px solid #00c0d1;
+      flex-wrap: wrap; /* Permite que os botões se movam para a próxima linha quando não há espaço suficiente */  
+    position: fix//ed; /*FIXA O PLAYER NO TOPO*/
+    
+
+
+    
+  }
+
+
+a.sc-button:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	background-position: 0 -15px;
+	-webkit-transition: background-position .3s linear;
+	-moz-transition: background-position .3s linear;
+	-o-transition: background-position .3s linear;
+	transition: background-position .3s linear
+}
+
+
+   #botoestilo {
+    background-color: #00c8ff; 
+    background-image: linear-gradient(rgb(4, 131, 194), rgb(4, 120, 150)); 
+    background-repeat: repeat-x;    
+    border-radius: 5px; 
+    border: 2px solid rgb(2, 16, 33); 
+    color: white; display: inline-block; 
+    cursor: pointer;
+    font-family: "varela round", sans-serif; 
+    font-size: 15px; 
+    font-weight: 700; 
+    margin: 4px; 
+    padding: 8px 10px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    width: 100px; /* Largura fixa dos botões */
+        }
+    a {
+	text-decoration: none
+}
+
+
+#scoreboard {
+  
+padding-top: 20px;
+  
+  }
+
+
+
+
+
+
+.text-danger {
+  font-size: 9px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.095em;
+}
+
+.label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.095em;
+  margin-bottom: 4px;
+}
+
+.mb-05 {
+  margin-bottom: 4px;
+}
+.ml-1 {
+  margin-left: 8px;
+}
+.ml-2 {
+  margin-left: 6px;
+}
+.mr-1 {
+  margin-right: 8px;
+}
+.mr-2 {
+  margin-right: 6px;
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.scoreboard {
+  background: #0F0F0F;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.scoreboard__container {
+  padding: 4px;
+}
+.scoreboard__result {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scoreboard .scoreboard__result-home,
+.scoreboard .scoreboard__result-away,
+.scoreboard .scoreboard__result-separator {
+  font-size: 20px;
+}
+.scoreboard .scoreboard__result-separator {
+  margin: 0 8px;
+  color: #6E6E6E;
+}
+.scoreboard__badge { 
+  width: 40px;  
+  height: 40px;
+}
+.scoreboard__badge img {
+  height: 100%;
+}
+.scoreboard__teams {
+  display: flex;
+  justify-content: center;
+}
+.scoreboard__team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.scoreboard__team--align-right {
+  flex-direction: row-reverse;
+}
+.scoreboard__team--align-right 
+.scoreboard__name {
+  text-align: right;
+}
+.scoreboard__team--align-left
+.scoreboard__name {
+  text-align: left;
+}
+.scoreboard__name {
+  display: block;
+  width: 100px;
+}
+
+
+.scoreboard__nav {
+  border-top: 1px solid #00c0d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0;
+  flex-wrap: wrap;
+  
+}
+.scoreboard__nav-el {
+  list-style: none;
+}
+.scoreboard__nav-el.is-active a {
+  color: #29BDDE;
+  position: relative;
+}
+.scoreboard__nav-el.is-active a:after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  content: "";
+  background: #29BDDE;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.scoreboard__nav-el a {
+  padding: 20px 16px;
+  color: #6E6E6E;
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+}
+.scoreboard__basics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
