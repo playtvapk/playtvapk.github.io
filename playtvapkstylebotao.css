@@ -1,0 +1,31 @@
+a.sc-button:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	background-position: 0 -15px;
+	-webkit-transition: background-position .3s linear;
+	-moz-transition: background-position .3s linear;
+	-o-transition: background-position .3s linear;
+	transition: background-position .3s linear
+}
+
+ #botoestilo {
+    background-color: #00c8ff; 
+    background-image: linear-gradient(rgb(4, 131, 194), rgb(0, 26, 56)); 
+    background-repeat: repeat-x;    
+    border-radius: 5px; 
+    border: 2px solid rgb(2, 16, 33); 
+    color: white; display: inline-block; 
+    cursor: pointer;
+    font-family: "varela round", sans-serif; 
+    font-size: 15px; 
+    font-weight: 700; 
+    margin: 4px; 
+    padding: 8px 10px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    width: 140px; /* Largura fixa dos botões */
+        }
+    a {
+	text-decoration: none
+}
