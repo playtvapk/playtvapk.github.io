@@ -24,7 +24,7 @@ a.sc-button:hover {
     padding: 8px 10px; 
     text-align: center; 
     text-transform: uppercase; 
-    width: 140px; /* Largura fixa dos botões */
+    width: 150px; /* Largura fixa dos botões */
         }
     a {
 	text-decoration: none
