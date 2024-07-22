@@ -21,9 +21,15 @@ a.sc-button:hover {
     font-size: 12px; 
     font-weight: 700; 
     margin: 4px; 
+    max-width: 100%;
+    overflow-wrap: break-word;
     padding: 8px 10px; 
     text-align: center; 
+    text-decoration-line: none;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+    vertical-align: middle;
     text-transform: uppercase; 
+    word-wrap: break-word;
     width: 150px; /* Largura fixa dos botões */
         }
     a {
