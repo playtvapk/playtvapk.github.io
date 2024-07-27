@@ -31,7 +31,6 @@ a.sc-button:hover {
     text-transform: uppercase; 
     word-wrap: break-word;
     width: 150px; /* Largura fixa dos botões */
-    draggable: false; /* Arrastar link */
         }
     a {
 	text-decoration: none
