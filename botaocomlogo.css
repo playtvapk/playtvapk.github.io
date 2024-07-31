@@ -30,7 +30,7 @@ a.sc-button:hover {
   display: inline-block;  
   height: 50px; 
   line-height: 5em;
-  margin: 0px 5px 0px 5px; 
+  margin: 5px 5px 0px 5px; 
   min-height: 5em; 
   padding: 0em 0px 0px;
   text-align: center;
@@ -55,7 +55,7 @@ a.sc-button:hover {
   border: 2px solid #00c8ff;
   border-top: 1px solid #00c8ff;
   line-height: 1.3;
-  margin: 0px 5px 0px 5px;     
+  margin: 0px 5px 5px 5px;     
   padding: 0px;
   text-align: center;    
   width: 150px;
