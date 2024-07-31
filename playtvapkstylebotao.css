@@ -18,7 +18,7 @@ a.sc-button:hover {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: center;
-      
+  user-select: none;
  }  
 
  #botoestilo {
