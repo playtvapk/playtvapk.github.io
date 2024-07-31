@@ -12,7 +12,7 @@ a.sc-button:hover {
   
 /*------- ESTILO DOS BOTOES----------------*/
 #botoes {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap; 
   justify-content: center;
   user-select: none;
@@ -24,13 +24,13 @@ a.sc-button:hover {
   background-image: linear-gradient(rgb(4, 131, 194), rgb(0, 26, 56));
   background-repeat: repeat-x;
   border-radius: 8px 8px 0px 0px; 
-  border: 2px solid #00c8ff;
+  border: 1px solid #00c8ff;
   border-bottom: 0px;
   box-sizing: inherit; 
   display: inline-block;  
   height: 50px; 
   line-height: 5em;
-  margin: 5px 10px 0px 0px; 
+  margin: 20px 15px 0px 0px; 
   min-height: 5em; 
   padding: 0em 0px 0px;
   text-align: center;
@@ -53,16 +53,17 @@ a.sc-button:hover {
 #stylebgfont {
   background: rgb(0, 0, 0); 
   border-radius: 0px 0px 8px 8px; 
-  border: 2px solid #00c8ff;
+  border: 1px solid #00c8ff;
   border-top: 1px solid #00c8ff;
   line-height: 1.0;
-  margin: 0px 0px 0px 0px; 
+  margin: 20px;  
   padding: 0px; 
   text-align: center;
   width: 160px;
   height: 35px;  
   display: table-cell;
   vertical-align: middle;
+  
   }
   
   #stylefont{
@@ -76,7 +77,7 @@ a.sc-button:hover {
     font-style: inherit;     
     line-height: 0.9;
     margin: 0px;    
-    padding: 5px;  
+    padding: 2px;  
     pointer-events: none;
     text-transform: uppercase;
     text-align: center;
@@ -88,3 +89,6 @@ a.sc-button:hover {
 	text-decoration: none
 
 }
+
+  
+  
