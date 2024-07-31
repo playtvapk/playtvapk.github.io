@@ -36,7 +36,7 @@ a.sc-button:hover {
   text-align: center;
   text-decoration-line: none;
   vertical-align: baseline;
-  width: 160px;
+  width: 140px;
   
   
        }
@@ -46,7 +46,7 @@ a.sc-button:hover {
     filter: drop-shadow(2px 2px 2px black);
     vertical-align: middle; 
     max-height: 80%;
-    max-width: 140px;
+    max-width: 130px;
     pointer-events: none;
     }
   
@@ -59,7 +59,7 @@ a.sc-button:hover {
   margin: 20px;  
   padding: 0px; 
   text-align: center;
-  width: 160px;
+  width: 140px;
   height: 35px;  
   display: table-cell;
   vertical-align: middle;
