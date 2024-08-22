@@ -1,0 +1,169 @@
+#botoes {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  user-select: none;
+   }  
+  
+ a.sc-button2:hover {
+  color: #333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .3s linear;
+	-moz-transition: background-position .3s linear;
+  -o-transition: background-position .3s linear;
+  transition: background-position .3s linear
+}
+
+#botoestilo {
+    background-color: #00c8ff; /* cor da animacso*/
+    background-image: linear-gradient(rgb(2, 190, 250), rgb(1, 85, 125)); 
+    background-repeat: repeat-x;    
+    border-radius: 6px; 
+    border: 4px solid rgb(2, 16, 33); 
+    color: white; 
+    display: inline-block; 
+    cursor: pointer;
+    font-family: "varela round", sans-serif; 
+    font-size: 13px; 
+    font-weight: 700; 
+    margin: 20px; 
+    padding: 0px; 
+    text-align: center; 
+    text-transform: uppercase; /* Texto maiúsculo */
+    width: 110px; /* Largura fixa dos botões */
+    height: 30px;   
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+a {
+  text-decoration: none
+}
+
+#scoreboard {
+margin: 10px;
+font-family: "Montserrat", sans-serif;     
+font-size: 13px;
+color: #fff;
+}
+.text-danger {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.095em;
+}
+
+.label {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.095em;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.mb-05 {
+  margin-bottom: 8px;
+}
+.ml-1 {
+  margin-left: 8px;
+}
+.ml-2 {
+  margin-left: 8px;
+}
+.mr-1 {
+  margin-right: 8px;
+}
+.mr-2 {
+  margin-right: 8px;
+}
+* { 
+  box-sizing: border-box;
+}
+.scoreboard {
+  background: linear-gradient(rgb(15, 15, 15), rgb(10, 10, 10));
+  width: 350px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-top: 1px solid #00c0d1;
+  border-bottom: 1px solid #00c0d1;
+}
+.scoreboard__container {
+  padding: 4px;
+}
+.scoreboard__result {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard .scoreboard__result-home,
+.scoreboard .scoreboard__result-away,
+.scoreboard .scoreboard__result-separator {
+  font-size: 15px; 
+}
+.scoreboard .scoreboard__result-separator {
+  margin: 0 8px;
+  color: #6E6E6E;
+}
+  .scoreboard__badge { 
+  width: 30px;  
+  height: 30px;
+
+}
+.scoreboard__badge img {
+  height: 100%;
+}
+.scoreboard__teams {
+  display: flex;
+  justify-content: center;
+}
+.scoreboard__team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.scoreboard__team--align-right {
+  flex-direction: row-reverse;
+}
+.scoreboard__team--align-right 
+.scoreboard__name {
+  text-align: right;
+  font-weight: 700;
+}
+.scoreboard__team--align-left
+.scoreboard__name {
+  text-align: left;
+  font-weight: 700;
+}
+.scoreboard__name {
+  display: block;
+  width: 100px;
+}  
+  .scoreboard__nav {
+  border-top: 1px solid #00c0d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  flex-wrap: wrap;  
+}
+  .scoreboard__nav-el {
+  list-style: none;    
+}
+.scoreboard__nav-el.is-active a {
+  color: #29BDDE;
+  position: relative;
+  }
+.scoreboard__basics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
