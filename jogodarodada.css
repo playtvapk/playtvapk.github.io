@@ -21,7 +21,7 @@
     background-image: linear-gradient(rgb(2, 190, 250), rgb(1, 85, 125)); 
     background-repeat: repeat-x;    
     border-radius: 6px; 
-    border: 4px solid rgb(2, 16, 33); 
+    border: 4px solid #0C0C0C;  
     color: white; 
     display: inline-block; 
     cursor: pointer;
