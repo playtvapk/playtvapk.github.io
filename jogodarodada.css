@@ -107,7 +107,7 @@ color: #fff;
   font-size: 15px; 
 }
 .scoreboard .scoreboard__result-separator {
-  margin: 0 8px;
+  margin: 0 -5px;
   color: #6E6E6E;
 }
   .scoreboard__badge { 
