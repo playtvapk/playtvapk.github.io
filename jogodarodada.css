@@ -146,6 +146,7 @@ color: #fff;
 .score__name {
   display: block;
   width: 120px;
+  text-transform: uppercase; /* Texto maiúsculo */
 }  
   .score__nav {
   border-top: 1px solid #00c0d1;
