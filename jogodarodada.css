@@ -44,7 +44,8 @@ a {
 }
 
 #score {
-margin-top: 10px;
+margin: 10px;
+margin-top:0px;
 font-family: "Montserrat", sans-serif;     
 font-size: 13px;
 color: #fff;
