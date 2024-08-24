@@ -26,13 +26,14 @@
     display: inline-block; 
     cursor: pointer;
     font-family: "varela round", sans-serif; 
-    font-size: 13px; 
+    font-size: 12px; 
     font-weight: 700; 
     margin: 20px; 
     padding: 0px; 
     text-align: center; 
     text-transform: uppercase; /* Texto maiúsculo */
-    width: 110px; /* Largura fixa dos botões */
+    max-width:140px;
+    width: 80px; /* Largura fixa dos botões */
     height: 30px;   
     display: table-cell;
     vertical-align: middle;
@@ -43,20 +44,20 @@ a {
 }
 
 #score {
-margin: 10px;
+margin-top: 10px;
 font-family: "Montserrat", sans-serif;     
 font-size: 13px;
 color: #fff;
 }
 .text-danger {
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.095em;
 }
 
 .label {
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -85,7 +86,7 @@ color: #fff;
 }
 .score {
   background: linear-gradient(rgb(15, 15, 15), rgb(10, 10, 10));
-  width: 350px;
+  width: 300px;
   margin-bottom: 8px;
   border-radius: 8px;
   border-top: 1px solid #00c0d1;
@@ -104,15 +105,15 @@ color: #fff;
 .score .score__result-home,
 .score .score__result-away,
 .score .score__result-separator {
-  font-size: 15px; 
+  font-size: 13px; 
 }
 .score .score__result-separator {
   margin: 0 -5px;
   color: #6E6E6E;
 }
   .score__badge { 
-  width: 30px;  
-  height: 30px;
+  width: 20px;  
+  height: 20px;
 
 }
 .score__badge img {
@@ -143,7 +144,7 @@ color: #fff;
 }
 .score__name {
   display: block;
-  width: 130px;
+  width: 120px;
 }  
   .score__nav {
   border-top: 1px solid #00c0d1;
