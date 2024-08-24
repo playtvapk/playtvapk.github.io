@@ -33,7 +33,7 @@
     text-align: center; 
     text-transform: uppercase; /* Texto maiúsculo */
     max-width:140px;
-    width: 80px; /* Largura fixa dos botões */
+    width: 90px; /* Largura fixa dos botões */
     height: 30px;   
     display: table-cell;
     vertical-align: middle;
