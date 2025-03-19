@@ -92,10 +92,8 @@ a.sc-button:hover {
 
 /*------- DIVISAO DAS CATEGORIAS----------------*/
 html, body {
-    width: 100vw;
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     font-family: PlutoTV Sans, Verdana, sans-serif;
     background-color: blue;
