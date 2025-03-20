@@ -34,7 +34,7 @@ html, body {
 }
 
 #divider {
-  height: 5px;
+  height: 3px;
   flex-grow: 1;
   align-self: center;
   background: blue;
