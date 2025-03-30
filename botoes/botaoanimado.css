@@ -50,7 +50,8 @@ a.sc-button:hover {
     background-repeat: repeat-x;    
     border-radius: 5px; 
     border: 1px solid rgb(0, 200, 255); 
-    color: white; display: inline-block; 
+    color: white; 
+    display: table-cell; 
     cursor: pointer;
     font-family: sans-serif; 
     font-size: 13px; 
