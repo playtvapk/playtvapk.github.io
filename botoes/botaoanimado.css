@@ -65,8 +65,9 @@ a.sc-button:hover {
     vertical-align: middle;
     text-transform: uppercase; 
     word-wrap: break-word;
-    width: 120px; /* Largura fixa dos botões */
-        }
+    width: 140px; /* Largura fixa dos botões */
+    height: 15px;   
+ }
     a {
 	text-decoration: none
 }
