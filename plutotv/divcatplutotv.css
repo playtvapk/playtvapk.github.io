@@ -1,6 +1,6 @@
 #category {
   color: #A8A8A8;
-  width: 100%;
+  width: 90%;
   display: inline-flex;
   padding-left: 10px;
   flex-direction: row;
@@ -26,9 +26,9 @@
 }
 
 #divider {
-  height: 3px;
+  height: 2px;
   flex-grow: 1;
   align-self: center;
   background: #A8A8A8;
-  margin-left: 15px;
+  margin-left: 10px;
 }
