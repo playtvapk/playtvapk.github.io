@@ -13,7 +13,7 @@
   font-weight: 600;
 }
 #category > h3 > i {
-  margin-right: 0px;
+  margin-right: 10px;
 }
 #category > h3 > i svg {
   filter: brightness(0) saturate(100%) invert(1);
