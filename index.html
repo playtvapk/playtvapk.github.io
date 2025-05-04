@@ -46,19 +46,16 @@
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.0);
       transition: box-shadow 0.4s ease, transform 0.3s ease;
       user-select: none;
-      outline: none;
-    }
-
-    .button:hover,
-    .button:focus {
-      transform: scale(1.03);
-      box-shadow: 0px 0px 10px rgba(0, 200, 255, 0.8);
-      border: 2px solid #00ccff;
     }
 
     .button:active {
       transform: scale(1.06);
       box-shadow: 0px 0px 10px rgba(0, 200, 255, 1.2);
+    }
+
+    .button:hover {
+      box-shadow: 0px 0px 10px rgba(0, 200, 255, 0.8);
+      transform: scale(1.03);
     }
 
     .logo-container {
@@ -71,8 +68,9 @@
 
     .button img {
       max-width: 100%;
-      max-height: 100%;
+      max-height: 100%;      
       object-fit: contain;
+      /* "filter: drop-shadow(1px 1px 1px black); */
     }
 
     .label {
@@ -107,6 +105,7 @@
 </head>
 <body>
 
+  <!-- CODIGO ADS -->
   <div id="ad-container" style="width: 100%; max-width: 728px; margin: 0 auto;">
     <script type="text/javascript">
       var atOptions = {
@@ -119,18 +118,231 @@
     </script>
     <script type="text/javascript" src="//www.highperformanceformat.com/3937372ecbcc98e54c431dd3f4ddbc09/invoke.js"></script>
   </div>
+  <!-- FIM CODIGO ADS -->
 
+  <!-- Grade de canais -->
   <div class="grid-container">
-    <a href="go:aviso" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994704_ico.png" alt="AVISO"></div><div class="label">AVISO</div></div></a>
-    <a href="go:plu" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994705_ico.png" alt="PLUTOTV"></div><div class="label">PLUTOTV</div></div></a>
-    <a href="go:rec" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994863_ico.png" alt="RECORD"></div><div class="label">RECORD</div></div></a>
-    <a href="go:glo" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994877_ico.png" alt="GLOBO"></div><div class="label">GLOBO</div></div></a>
-    <a href="go:pre" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994904_ico.png" alt="PREMIERE"></div><div class="label">PREMIERE</div></div></a>
-    <a href="go:spo" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994903_ico.png" alt="SPORTV"></div><div class="label">SPORTV</div></div></a>
-    <a href="go:inf" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994905_ico.png" alt="INFORMATIVOS"></div><div class="label">INFORMATIVOS</div></div></a>
-    <a href="go:fil" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994906_ico.png" alt="FILMES"></div><div class="label">FILMES</div></div></a>
-    <a href="go:adul" target="_blank"><div class="button" tabindex="0"><div class="logo-container"><img src="https://www.appcreator24.com/srv/imgs/seccs/31994907_ico.png" alt="ADULTOS"></div><div class="label">ADULTOS</div></div></a>
+
+    <a href="go:aviso" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.futebolnatv.com.br/assets/img/logo.svg" alt="AVISO" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">AVISO</div>
+      </div>
+    </a>
+
+    <a href="go:plu" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs1VYR8JfNy2-r-dQCXdSGF2Ig0FnrHwNC8-RjL-Wln-c1xfARvpvZrLMpa9gAIXUmhKJihL8WAQDwtRVYN8Tje8LChcF2i6R5GuSS_1U0W1V0GeB3D06T2Gi0ShCRgJH0o4sZOxXWyOpZzgzQRuce1jIHuSE3WuU7EubwV0LSmjcMU-x9oSDOUNVjoZnR/s345/TV_Di%C3%A1rio_logo_2023.webp" alt="PLUTOTV" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">PLUTOTV</div>
+      </div>
+    </a>
+
+    <a href="go:futv" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994706_ico.png" alt="FUT NA TV" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">FUTEBOL NA TV</div>
+      </div>
+    </a>
+
+    <a href="go:futvivo" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994707_ico.png" alt="FUT AO VIVO" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">FUTEBOL AO VIVO</div>
+      </div>
+    </a>
+
+    <a href="go:aber" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994719_ico.png" alt="TV ABERTA" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">TV ABERTA</div>
+      </div>
+    </a>
+
+    <a href="go:esp" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994720_ico.png" alt="" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">ESPORTES</div>
+      </div>
+    </a>
+    
+        <a href="go:film" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994721_ico.png" alt="FILMES E SERIES" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">FILMES E SÉRIES</div>
+      </div>
+    </a>
+    
+    <a href="go:var" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994723_ico.png" alt="VARIEDADES" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">VARIEDADES</div>
+      </div>
+    </a>
+    
+    <a href="go:inf" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994722_ico.png" alt="INFANTIL" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">INFANTIL</div>
+      </div>
+    </a>
+    
+    <a href="go:doc" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994724_ico.png" alt="DOCUMENTARIOS" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">DOCUMENTÁRIOS</div>
+      </div>
+    </a>
+    
+    <a href="go:not" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994725_ico.png" alt="NOTÍCIAS" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">NOTÍCIAS</div>
+      </div>
+    </a>
+    
+    <a href="go:mcan" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994726_ico.png" alt="CANAIS" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">+CANAIS</div>
+      </div>
+    </a>
+    
+    <a href="go:glo" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/34158028_ico.png" alt="CANAIS GLOBO" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">CANAIS GLOBO</div>
+      </div>
+    </a>
+    
+    <a href="go:pplus" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994715_ico.png" alt="PLAYPLUS" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">CANAIS PLAYPLUS</div>
+      </div>
+    </a>
+    
+    <a href="go:bplay" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/34668320_ico.png" alt="BANDPLAY" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">CANAIS BANDPLAY</div>
+      </div>
+    </a>
+    
+    <a href="go:csky" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994729_ico.png" alt="CINESKY" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">CINESKY</div>
+      </div>
+    </a>
+    
+    <a href="go:one" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994734_ico.png" alt="onefootball" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">ONEFOOTBALL</div>
+      </div>
+    </a>
+    
+    <a href="go:cana" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994735_ico.png" alt="canaisplay" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">CANAISPLAY</div>
+      </div>
+    </a>
+    
+    <a href="go:insta" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994738_ico.png" alt="INSTAGRAM" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">SIGA NOSSO INSTAGRAM</div>
+      </div>
+    </a>
+    
+    <a href="go:wpp" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994736_ico.png" alt="WHATSAPP" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">SIGA NOSSO WPP</div>
+      </div>
+    </a>
+    
+    <a href="go:tele" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994739_ico.png" alt="TELEGRAM" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">SIGA NOSSO TELEGRAM</div>
+      </div>
+    </a>
+    
+    <a href="go:fm" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994737_ico.png" alt="PLAYTVFM" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">PLAYTV FM</div>
+      </div>
+    </a>
+    
+    <a href="go:adul" target="_blank">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://www.appcreator24.com/srv/imgs/seccs/31994907_ico.png" alt="ADULTOS" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">ADULTOS</div>
+      </div>
+    </a>
+    
+    
+
   </div>
+
+  <!-- Proteção extra -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("img").forEach(img => {
+        img.setAttribute("draggable", "false");
+        img.setAttribute("oncontextmenu", "return false");
+      });
+    });
+  </script>
 
 </body>
 </html>
